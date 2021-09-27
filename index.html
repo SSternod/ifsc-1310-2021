@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<lang-"en">
+
+  <head>
+    <title> Shawn Sternod</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="keyword rich description of the site purpose." />
+
+    <!-- You don't need keywords anymore -->
+    <meta name="keywords" content="UALR, Ua Little Rock, Information Science" />
+    <meta name="author" content="Shawn Sternod" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="primary">
+        <h1>Prototype HTML Document Example</h1>
+      </header>
+      <section id="content">
+        <!--- id name is unique, can only show up once per id, multiple ids are ok--->
+        <form action="processing-script.php" method="get">
+          <fieldset>
+            <legend>Personal information</legend>
+            <label for="Name">Name:</label><input type="text" id="Name" name="Name" />
+            <label for="Adress">Adress:</label> <textarea id="Address" name="Adress"></textarea>
+            <label for="color">what is your favorite color?</label>
+
+            <select id="color" name="color">
+              <option value="N/A">Choose below</option>
+              <option value="R">Red</option>
+              <option value="G">Green</option>
+              <option value="B">Blue</option>
+            </select>
+            <input type="submit" value="Take me to your leader!" />
+
+          </fieldset>
+        </form>
+        <h2 id="sample">Properly &nbsp; &nbsp; Marking up an HTML Document</h2>
+        <!---This is a paragraph.--->
+        <p> Often times designers will use
+          <q>Dummy Text</q>
+          as a placeholder in a document.<strong>An example of that text follows</strong>...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, <em>posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor.</em> <del> Vivamus id lectus non eros eleifend aliquet.</del> <sup>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</sup> Mauris volutpat. Integer dignissim consequat enim. <sub>Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</sub>
+        </p>
+        <!---when pubishing, remove the border atribute and do it in CSS--->
+        <table border="1" summary="This is a descriptive text">
+          <caption>Grocery List</caption>
+          <tr>
+            <th scope="col">item</th>
+            <th scope="col">quantity</th>
+            <th scope="col">Cost</th>
+          </tr>
+          <tr>
+            <td>Jolt</td>
+            <td>6</td>
+            <td>&cent;50</td>
+          </tr>
+          <tr>
+            <td>Ramen</td>
+            <td>12</td>
+            <td>&cent;25</td>
+          </tr>
+          <tr>
+            <td>bread</td>
+            <td>1 loaf</td>
+            <td>&dollar;4</td>
+          </tr>
+          <tr>
+            <td>Milk</td>
+            <td>2</td>
+            <td>&dollar;2 &cent; 19</td>
+          </tr>
+        </table>
+
+        <!---this is a line break, better to use CSS--->
+        <hr />
+
+        <address>
+          Thomas Wallace<br />
+          123 Notreal Drive<br />
+          Little Rock, AR, 72204
+        </address>
+
+        <h3>This is a Subsection of the Primary Content</h3>
+
+        <!---This is a paragraph.--->
+        <article class="primary">
+          <p>Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.
+          <p>
+        </article>
+        <!---This is a list of instructions.--->
+
+        <ol>
+          <li>Instruction</li>
+          <li>Instruction</li>
+          <li>Instruction</li>
+        </ol>
+        <ol start="5">
+          <li>instruction</li>
+        </ol>
+        <!---This is a list of items to purchase at the grocery store.--->
+
+        <ul>
+          <li>Ramen</li>
+          <li>Cheetos
+            <ul>
+              <li>puffs</li>
+              <li>jalapeno</li>
+              <li>paws</li>
+            </ul>
+          </li>
+          <li>Jolt</li>
+          <li>Bread</li>
+        </ul>
+
+        <!---This is an Example of how we should mark up a term and its description(s)--->
+
+        <dl>
+          <dt>Term</dt>
+
+          <dd>Description 1</dd>
+
+          <dd>Description 2</dd>
+          <!---for second term just add a <dt>--->
+          <dt>term</dt>
+          <dd>description 1</dd>
+          <dd>description 2</dd>
+          <dd>description 3</dd>
+        </dl>
+        <h4>This is a Subsection of Subsection I</h4>
+
+        <blockquote>This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite></blockquote>
+
+        <h3>This is a Subsection of the Primary Content</h3>
+        <!---(Subsection II)--->
+
+        <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+        <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="UA Little Rock Logo" width="250px" height="150px" />
+        <!---usually don't use width and height because different size screens will act weirdly--->
+        <p> Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+      </section>
+      <!---#content--->
+      <!---This is the Navigation for the Page--->
+      <nav class="primary">
+        <ul>
+          <li>Home<a href="https://ualr.edu" target="_blank" title="This is an example of an Absolute link."> Absolute Link</a></li>
+          <li>About<a href="files/filename.pdf" title="this is an example of a Reletive link." download> relative Link</a></li>
+          <li>Services <a href="#sample" title="This is an example of an Anchor link."> Anchor Link</a></li>
+          <li>Contact<a href="mailto:twallace@ualr.edu" title="This is an example of a Mail to link.">Mail to Link</a></li>
+        </ul>
+      </nav>
+      <!---.primary--->
+      <!---This is the the footer. You should always include any copyright information in this section as well as a way to contact the owner of the page--->
+      <footer class="primary">
+        <h6>&copy; 2021 Shawn Sternod <a href="#top">top</a>
+        </h6>
+      </footer>
+    </div>
+    <!---.container--->
+  </body>
+
+</html>
