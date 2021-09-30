@@ -1,16 +1,7 @@
-body{
-  margin: 5px;
-  
-}
-
 .container{
-  border:2px solid black;
-  
-  margin:40px auto;
+  border:5px solid;
+  width:80vw;
+  margin:20px auto;
   background:#fff;
-  padding:20px;
+  padding:5px;
 }
-
-
-
-
