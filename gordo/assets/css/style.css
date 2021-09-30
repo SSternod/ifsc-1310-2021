@@ -1,12 +1,11 @@
-body{
-  background:blue;
+body {
   margin: 5px;
   
 }
 
-.container{
+.container {
   border:1px solid #ccc;
-  width:80vw;
+  
   margin:40px auto;
   background:#fff;
   padding:20px;
