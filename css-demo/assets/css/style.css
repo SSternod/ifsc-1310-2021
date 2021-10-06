@@ -1,0 +1,28 @@
+/* CSS Demo Stylesheet */
+
+/* colors:#E5E6E8 #83B0D0 #F3EAE3 #C4E5F8 #82878D */
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ---------------Global Styles----------------- */
+
+body {
+    background-color: #F3EAE3;
+    font-family: 'IM Fell English', serif;
+}
+
+header.primary {
+    background-color: #3b638b;
+    text-align: center;
+    color: #ffffff
+}
