@@ -14,6 +14,20 @@ html {
     box-sizing: inherit;
 }
 
+/* -------------- Utility Classes ------------------- */
+
+.container {
+    width: 70vw;
+    margin: 40px auto;
+}
+
+/* ---------- responsive images ---------- */
+
+img {
+    max-height: 100%;
+    height: auto;
+}
+
 /* ---------------Global Styles----------------- */
 
 body {
@@ -96,7 +110,7 @@ header nav a:active {
 
 /* Media Query Example */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     header.primary nav ul {
         flex-direction: column;
         max-width: 70vw;
@@ -109,4 +123,48 @@ header nav a:active {
     header.primary nav li {
         margin-bottom: 10px;
     }
+}
+
+#intro h2 {
+    color: #82878D;
+    border-bottom: 1px dotted #C4E5F8;
+}
+
+#intro p {
+    line-height: 1.8rem;
+}
+
+#intro {
+    border-bottom: 1px dotted #C4E5F8;
+    padding-bottom: 5px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#content article.post {
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: .7rem;
+    transition: .5s;
+}
+
+#content article.post:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, .4);
+}
+
+#content .post figure {
+    margin: 0;
+}
+
+time .post-date,
+figcaption,
+.post-meta {
+    text-transform: uppercase;
+    color: #000000;
 }
