@@ -24,7 +24,7 @@ html {
 /* ---------- responsive images ---------- */
 
 img {
-    max-height: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -167,4 +167,31 @@ figcaption,
 .post-meta {
     text-transform: uppercase;
     color: #000000;
+}
+
+.post a {
+    color: #C4E5F8;
+}
+
+.post a:hover,
+.post a:active {
+    text-decoration: none;
+}
+
+/* ----------Example of atribute selector---------- */
+
+aside[role="complementary"] {
+    background-color: #E5E6E8;
+    color: #82878D;
+    padding: 1.8rem;
+}
+
+aside div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article.widget {
+    width: 46%;
 }
