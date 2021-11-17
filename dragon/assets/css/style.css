@@ -9,6 +9,10 @@
     padding: .2px;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .container {
     width: 80vw;
     margin: 20px auto;
