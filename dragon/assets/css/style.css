@@ -22,6 +22,7 @@
 .imgleft {
     float: right;
     padding-bottom: 4px;
+    max-width: 44vw;
 
 }
 
@@ -31,10 +32,10 @@
 
 .tableleft {
     float: left;
-    max-width: 40vw;
+    max-width: 44vw;
 }
 
-.clear {
+#clear {
     clear: both;
 }
 
@@ -71,6 +72,14 @@ header.primary h1 a {
     text-align: center;
     color: #1CC1FC;
     padding: .5px;
+}
+
+.config2 {
+    background-color: #03379E;
+    text-align: center;
+    color: #1CC1FC;
+    padding: .5px;
+    clear: both;
 }
 
 .pad {
