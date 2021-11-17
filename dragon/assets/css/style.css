@@ -19,10 +19,16 @@
     max-width: 1500px;
 }
 
-.imgleft {
+.imgright {
     float: right;
     padding-bottom: 4px;
     max-width: 44vw;
+
+}
+
+.imgleft {
+    float: right;
+    padding-bottom: 4px;
 
 }
 
@@ -33,6 +39,10 @@
 .tableleft {
     float: left;
     max-width: 44vw;
+}
+
+.clear {
+    clear: both;
 }
 
 #clear {
