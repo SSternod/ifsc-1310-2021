@@ -2,7 +2,7 @@
 
 /*  blue darkblue lightblue dullblue cyan  */
 
-#question {
+.question {
     background-color: #1836FA;
     text-align: center;
     color: #1CC1FC;
@@ -19,17 +19,17 @@
     max-width: 1500px;
 }
 
-#imgleft {
+.imgleft {
     float: right;
     padding-bottom: 4px;
 
 }
 
-#imgtext {
+.imgtext {
     float: left;
 }
 
-#clear {
+.clear {
     clear: both;
 }
 
@@ -53,7 +53,7 @@ header.primary h1 a {
     padding: 5px;
 }
 
-#answer {}
+.answer {}
 
 #colophon {
     display: flex;
@@ -61,14 +61,14 @@ header.primary h1 a {
     justify-content: space-between;
 }
 
-#config {
+.config {
     background-color: #03379E;
     text-align: center;
     color: #1CC1FC;
     padding: .5px;
 }
 
-#pad {
+.pad {
     padding-top: 15px;
     padding-bottom: 6px;
 }
