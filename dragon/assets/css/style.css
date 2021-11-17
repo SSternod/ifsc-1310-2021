@@ -29,6 +29,10 @@
     float: left;
 }
 
+.tableleft {
+    float: left;
+}
+
 .clear {
     clear: both;
 }
