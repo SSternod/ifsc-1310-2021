@@ -19,11 +19,13 @@
     max-width: 1500px;
 }
 
-.imgright {
+.gallery {
     float: right;
-    padding-bottom: 4px;
-    max-width: 44vw;
-    overflow:hidden;
+    background-color: #4E83DB;
+    width: 38vw;
+    overflow: hidden;
+    /*Avoids showing all of the images momentarily while JS loads */
+    border-radius: 4px;
 
 }
 
@@ -39,7 +41,7 @@
 
 .tableleft {
     float: left;
-    max-width: 44vw;
+    max-width: 38vw;
 }
 
 .clear {
