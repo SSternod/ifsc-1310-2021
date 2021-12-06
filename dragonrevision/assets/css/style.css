@@ -1,11 +1,11 @@
-/* #1836FA #03379E #277BF0 #4E83DB #1CC1FC   */
+/* #1836FA #03379E #277BF0 #4E83DB #DDDDE0   */
 
-/*  blue darkblue lightblue dullblue cyan  */
+/*  blue darkblue lightblue dullblue Pewter  */
 
 .question {
     background-color: #1836FA;
     text-align: center;
-    color: #1CC1FC;
+    color: #DDDDE0;
     padding: .2px;
 }
 
@@ -23,6 +23,7 @@
     float: right;
     padding-bottom: 4px;
     max-width: 44vw;
+    overflow:hidden;
 
 }
 
@@ -80,14 +81,14 @@ header.primary h1 a {
 .config {
     background-color: #03379E;
     text-align: center;
-    color: #1CC1FC;
+    color: #DDDDE0;
     padding: .5px;
 }
 
 .config2 {
     background-color: #03379E;
     text-align: center;
-    color: #1CC1FC;
+    color: #DDDDE0;
     padding: .5px;
     clear: both;
 }
@@ -129,7 +130,7 @@ table {
     width: 100%;
     border: 1px solid #03379E;
     margin-bottom: 40px;
-    color: #1CC1FC;
+    color: #DDDDE0;
     text-shadow: .65px .9px #000000;
 }
 
@@ -143,7 +144,7 @@ table tr:hover {
 
 table th {
     background: #1C479E;
-    color: #1CC1FC;
+    color: #DDDDE0;
     width: 33%;
     padding: 10px;
 }
@@ -155,7 +156,7 @@ table td {
 }
 
 table caption {
-    color: #1CC1FC;
+    color: #DDDDE0;
     padding: 10px;
     font-weight: bold;
     font-size: 1.4rem;
